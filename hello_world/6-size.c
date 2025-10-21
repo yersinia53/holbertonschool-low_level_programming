@@ -9,9 +9,13 @@ int main()
 	int i;
 	float f;
 	char c;
-	printf("Size of int: %d bytes\n", (int)sizeof(i));
-	printf("Size of float: %d bytes\n", (int)sizeof(f));
+	long int l;
+	long long int ll;
 	printf("Size of char: %d bytes\n", (int)sizeof(c));
+	printf("Size of int: %d bytes\n", (int)sizeof(i));
+	printf("Size of long int: %d bytes\n", (int)sizeof(l));
+	printf("Size of long int: %d bytes\n", (int)sizeof(l));
+	printf("Size of float: %d bytes\n", (int)sizeof(f));
 
 	return 0;
 }
